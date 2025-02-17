@@ -75,6 +75,9 @@ body .product-grid .product__img {
   height: auto;
   margin-bottom: 10px;
 }
+body .product-grid .product:hover {
+  background-color: #c4c4c4;
+}
 body .cart {
   width: 500px;
   background-color: #fff;
@@ -177,5 +180,34 @@ body .cart__delete-icon {
   }
   .cart .cart__img {
     width: 100px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #232323;
+    color: #fff;
+  }
+  body header {
+    background-color: #232323;
+  }
+  body .banner {
+    background-color: #232323;
+    color: #444;
+  }
+  body .product-grid {
+    background-color: #232323;
+  }
+  body .product-grid .product {
+    color: #fff;
+  }
+  body .product-grid .product:hover {
+    background-color: #444;
+  }
+  body .cart {
+    background-color: #232323;
+    color: #fff;
+  }
+  body .cart__item {
+    border-bottom: 1px solid #444;
   }
 }/*# sourceMappingURL=sass.css.map */
