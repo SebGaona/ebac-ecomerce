@@ -178,4 +178,30 @@ body .cart__delete-icon {
   .cart .cart__img {
     width: 100px;
   }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #232323;
+    color: #fff;
+  }
+  body header {
+    background-color: #232323;
+  }
+  body .banner {
+    background-color: #232323;
+    color: #444;
+  }
+  body .product-grid {
+    background-color: #232323;
+  }
+  body .product-grid .product {
+    color: #fff;
+  }
+  body .cart {
+    background-color: #232323;
+    color: #fff;
+  }
+  body .cart__item {
+    border-bottom: 1px solid #444;
+  }
 }/*# sourceMappingURL=sass.css.map */

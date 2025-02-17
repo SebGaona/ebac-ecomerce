@@ -4,6 +4,9 @@ $font-family: 'lexend', sans-serif;
 $text-color: #999;
 $background-color: #333;
 $primary-color: #fff;
+$dark-background-color: #232323;
+$dark-text-color: #fff;
+$dark-primary-color: #444;
 $padding-large: 60px;
 $padding-medium: 25px;
 $padding-small: 20px;
@@ -243,5 +246,39 @@ body {
       width: 100px;
     }
 
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background-color: $dark-background-color;
+    color: $dark-text-color;
+
+    header {
+      background-color: $dark-background-color;
+    }
+
+    .banner {
+      background-color: $dark-background-color;
+      color: $dark-primary-color;
+    }
+
+    .product-grid {
+      background-color: $dark-background-color;
+
+      .product {
+        color: $dark-text-color;
+      }
+    }
+
+    .cart {
+      background-color: $dark-background-color;
+      color: $dark-text-color;
+
+      &__item {
+        border-bottom: 1px solid $dark-primary-color;
+      }
+    }
   }
 }
