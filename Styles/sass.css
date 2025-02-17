@@ -75,6 +75,9 @@ body .product-grid .product__img {
   height: auto;
   margin-bottom: 10px;
 }
+body .product-grid .product:hover {
+  background-color: #c4c4c4;
+}
 body .cart {
   width: 500px;
   background-color: #fff;

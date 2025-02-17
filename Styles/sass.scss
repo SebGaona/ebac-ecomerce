@@ -1,6 +1,7 @@
 
 
 $font-family: 'lexend', sans-serif;
+$light-hover-color: #c4c4c4;
 $text-color: #999;
 $background-color: #333;
 $primary-color: #fff;
@@ -115,6 +116,10 @@ body {
         width: $img-width;
         height: auto;
         margin-bottom: 10px;
+      }
+
+      &:hover{
+        background-color: $light-hover-color;
       }
     }
   }
