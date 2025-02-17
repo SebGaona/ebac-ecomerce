@@ -197,6 +197,9 @@ body .cart__delete-icon {
   body .product-grid .product {
     color: #fff;
   }
+  body .product-grid .product:hover {
+    background-color: #444;
+  }
   body .cart {
     background-color: #232323;
     color: #fff;
